@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/index.css" rel="stylesheet" />
+    <title>Post | Insta Clone</title>
+  </head>
+  <body>
+    <main class="post">
+      <div class="post__writer">
+        <div class="writer__column">
+          <a href="index.html"><i class="fas fa-arrow-left"></i> </a>
+
+          <a href="post.html">
+            <img src="images/lisa.png" class="writer__avatar post-avatar"
+          /></a>
+
+          <div class="writer__column-username">
+            <a href="post.html">
+              <span class="writer__name">Lisa simpson</span></a
+            >
+            <span class="writer__timestamp">5 min</span>
+          </div>
+        </div>
+
+        <div class="writer__column"><i class="fas fa-ellipsis-h"></i></div>
+      </div>
+
+      <div class="post__content">
+        <img src="images/bday.png" class="post__content-img" />
+      </div>
+      <div class="post__comment">
+        <div class="comment__column">
+          <div class="comment__like">
+            <i class="fab fa-the-red-yeti"></i> 2,515
+          </div>
+
+          <div class="comment__like"><i class="fas fa-beer"></i> 350</div>
+        </div>
+
+        <i class="far fa-bookmark"></i>
+      </div>
+    </main>
+
+    <ul class="post__detail-comments">
+      <li class="detail-comment">
+        <img src="images/bart.png" class="detail-comment-avatar post-avatar" />
+        <div class="detail-comment__column">
+          <span class="writer__name">Bart</span>
+          <span class="detail-comment__content">blablabla</span>
+          <div class="detail-comment__likes">
+            <i class="fab fa-the-red-yeti"></i>
+            <i class="fas fa-reply"></i>
+          </div>
+        </div>
+      </li>
+
+      <li class="detail-comment">
+        <img src="images/burns.png" class="detail-comment-avatar post-avatar" />
+        <div class="detail-comment__column">
+          <span class="writer__name">Pig</span>
+          <span class="detail-comment__content">blablabla</span>
+          <div class="detail-comment__likes">
+            <i class="fab fa-the-red-yeti"></i>
+            <i class="fas fa-reply"></i>
+          </div>
+        </div>
+      </li>
+
+      <li class="detail-comment">
+        <img
+          src="images/maggie.png"
+          class="detail-comment-avatar post-avatar"
+        />
+        <div class="detail-comment__column">
+          <span class="writer__name">Sweetie</span>
+
+          <span class="detail-comment__content">blablabla</span>
+          <div class="detail-comment__likes">
+            <i class="fab fa-the-red-yeti"></i>
+            <i class="fas fa-reply"></i>
+          </div>
+        </div>
+      </li>
+
+      <li class="detail-comment">
+        <img src="images/rick.png" class="detail-comment-avatar post-avatar" />
+        <div class="detail-comment__column">
+          <span class="writer__name">Rick</span>
+
+          <span class="detail-comment__content">blablabla</span>
+          <div class="detail-comment__likes">
+            <i class="fab fa-the-red-yeti"></i>
+            <i class="fas fa-reply"></i>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <div class="post__add">
+      <div class="add-box">
+        <img src="images/bart.png" class="writer__name post-avatar" />
+        <input type="text" class="add-message" placeholder="Add a comment" />
+        <div class="comment-send"><i class="far fa-paper-plane"></i></div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/7e2a585147.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
