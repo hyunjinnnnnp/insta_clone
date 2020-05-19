@@ -23,11 +23,10 @@ a {
   text-decoration: none;
 }
 .status-bar {
-  width: 100%;
   font-family: "Lobster", cursive;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  margin: 20px;
 }
 .status-bar .status-bar__icon {
   margin-left: 10px;
@@ -53,7 +52,7 @@ a {
 }
 .header .header__icon {
   position: absolute;
-  top: 110px;
+  top: 90px;
   left: 60px;
   background-color: rgb(46, 46, 46);
   color: white;
@@ -71,7 +70,6 @@ a {
 .post {
   padding: 20px;
   margin: 20px;
-  width: 100%;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
